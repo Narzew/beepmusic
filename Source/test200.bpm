@@ -1,0 +1,32 @@
+BPM
+name Test200
+author Narzew
+desc To jest testowa mieszanka częstotliwości 200-280
+enname Test200
+endesc This is test mix of frequencies 200-280
+
+test200 freq 200 100 20 1
+test220 freq 220 50 30 1
+test240 freq 240 25 10 1
+test260 freq 260 13 20 2
+test280 freq 280 6 10 5
+endfreq
+
+test200^18
+test220^18
+test240^18
+test260^18
+test280^18
+test200^test220^18
+test220^test240^18
+test240^test260^18
+test260^test280^18
+test200^test220^test240^18
+test200^test220^test260^18
+test200^test220^test280^18
+test220^test240^test260^18
+test220^test260^test280^18
+test240^test260^test280^18
+test240^test280^test220^18
+test260^test280^test220^18
+test280^test220^test240^18

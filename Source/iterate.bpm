@@ -1,0 +1,12 @@
+BPM
+name Iterate
+author Narzew
+desc To jest iteracja od 1 do 19999 i od 19999 do 1
+enname Iterate
+endesc This is iteration form 1 to 19999 and from 19999 to 1
+
+iterateup change 1 19999 15 10 1
+iteratedown change 19999 1 15 10 1
+
+iterateup^1
+iteratedown^1

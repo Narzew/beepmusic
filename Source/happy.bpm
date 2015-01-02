@@ -1,0 +1,29 @@
+BPM
+name Happy
+author Narzew
+desc Happy Narcotic Mix
+enname Happy
+endesc Happy Narcotic Mix
+
+happy change 6000 5960 100 2 1
+happy2 change 5960 6000 100 2 1
+happyd change 6000 5960 100 100 1
+happyd2 change 5960 6000 100 100 1
+endfreq
+
+happy^happyd^2
+happy^happy2^2
+happy^happyd2^2
+happy2^happy^2
+happy2^happyd^2
+happy2^happyd2^2
+happyd^happy^2
+happyd^happy2^2
+happyd^happyd2^2
+happyd2^happy^2
+happyd2^happy2^2
+happyd2^happyd^2
+happy^happy2^happyd^happyd2^2
+happy^happyd^happy2^happyd2^2
+happy2^happyd^happy^happyd2^2
+happyd2^happy^happyd^happy^2

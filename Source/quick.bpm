@@ -1,0 +1,44 @@
+BPM
+name Quick
+author Narzew
+desc To jest testowa krotka muzyczka
+enname Quick
+endesc This is test quick music
+#100,10,10,1;300,20,20,2;500,30,30,1;1000,20,0,1
+#
+quick100 freq 100 10 10 1
+quick300 freq 300 20 20 2
+quick500 freq 500 30 30 1
+quick1000 freq 1000 20 0 1
+grow100300 change 100 300 15 10 1
+down500300 change 500 300 15 10 1
+endfreq
+#
+quick100^1
+quick300^1
+quick500^1
+quick1000^1
+quick100^3
+quick300^3
+quick500^3
+quick1000^3
+quick100^5
+quick300^5
+quick500^5
+quick1000^5
+quick1000^1
+quick500^1
+quick300^1
+quick100^1
+quick1000^3
+quick500^3
+quick300^3
+quick100^3
+quick1000^5
+quick500^5
+quick300^5
+quick100^5
+grow100300^1
+down500300^1
+grow100300^1
+down500300^1

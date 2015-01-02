@@ -1,0 +1,23 @@
+BPM
+name Hacker Story
+author Narzew
+desc Hacker Story
+enname Hacker Story
+endesc Hacker Story
+hack1 change 2990 3000 100 20 1
+hack2 change 2000 1990 100 20 1
+hack3 change 5990 6000 100 20 1
+hack4 change 6000 5990 100 20 1
+midhack1 change 2990 3000 50 10 2
+midhack2 change 2000 1990 50 10 2
+midhack3 change 5990 6000 50 10 2
+midhack4 change 6000 5990 50 10 2
+endfreq
+hack1^midhack2^3
+hack2^midhack1^3
+hack1^midhack2^hack1^3
+hack2^midhack1^hack2^3
+hack3^midhack4^3
+hack4^midhack3^3
+hack3^midhack4^hack3^3
+hack4^midhack3^hack4^3
