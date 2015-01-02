@@ -1,0 +1,68 @@
+Beep Music v 1.00 by Narzew Readme
+
+Hello! Thanks for downloading BeepMusic! In this text file I will tell you the base use of the program.
+Operating system requirements:
+
+- Linux with instaled Ruby and beep software.
+
+1) Playing Beep Music
+
+To play music you run the program with the argument play and the path to music file in .cbm format. Examples are located in the Music directory.
+
+Examples includes:
+Quick.cbm - quick music for example
+Test200.cbm - quick test with 200-280 freqencies
+Iterate.cbm - big beep music that iterates on all available frequencies
+
+2) Making Beep Music
+
+Firstly you must create your music .bpm file.
+The structure is: (header)
+
+BPM
+name Name Of The Music
+author Author Of The Music
+desc Description Of The Music
+enname English Name Of The Music
+endesc English Description Of The Music
+
+Below header there are frequencies list. Structure is:
+
+name freq [Frequency] [Length] [Delay] [Repeats], for example:
+
+test freq 200 100 20 1
+
+endfreq string ends the frequency section.
+
+Below frequency section there are frequency list.
+Struct is : frequencyname^repeats for example:
+
+test^7
+
+Now you must compile created .bpm file to playable .cbm format. Run the program with arguments compile and path to input bpm and output cbm.
+
+Compiled .cbm files can be played with Beep Music. You can share it in the internet ;)
+
+3) Making advanced Beep Music
+
+3.1) Mixing frequencies
+
+You can mix 2 or 3 frequencies:
+
+freq1^freq2^6 (freq1 mixed with freq2 with 6 repeats)
+freq1^freq2^freq3^8 (freq1 mixed with freq2 mixed with freq3 with 8 repeats)
+
+3.2) You can make range frequences:
+
+test change [Start Freq] [End Freq] [Length] [Delay] [Repeats] for example:
+test change 100 200 20 10 1 # Frequencies 100->200
+test change 200 100 20 10 1 # Frequencies 200->100 (reversed previous example)
+
+That's all!
+
+Enjoy!
+
+~~Narzew
+
+License : GPL
+Give credit if used!
