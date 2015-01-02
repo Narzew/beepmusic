@@ -1,0 +1,42 @@
+BPM
+name Christmas Theme
+author Narzew
+desc To jest theme świąteczny
+enname Christmas
+endesc This is christmas theme
+
+# THIS IS IMPORTED WORK!
+
+christmas200 freq 200 222 1 1
+christmas220 freq 220 222 1 1
+christmas245 freq 245 222 1 1
+christmas265 freq 265 222 1 1
+christmas295 freq 295 222 1 1
+christmas300 freq 300 222 1 1
+christmas330 freq 330 222 1 1
+christmas345 freq 345 222 1 1
+endfreq
+
+christmas200^2
+christmas265^3
+christmas295^1
+christmas265^1
+christmas245^1
+christmas220^6
+christmas295^3
+christmas330^1
+christmas295^1
+christmas265^1
+christmas245^2
+christmas200^4
+christmas330^3
+christmas345^1
+christmas330^1
+christmas300^1
+christmas265^2
+christmas220^2
+christmas200^2
+christmas220^2
+christmas300^2
+christmas245^2
+christmas265^4
